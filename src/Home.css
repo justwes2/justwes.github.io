@@ -1,0 +1,65 @@
+body {
+  background: url("../public/background.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+  font-family: 'Crimson Text', serif;
+  padding: 20px;
+  color: rgb(252, 253, 241);
+  font-family: 'Crimson Text', serif;
+  padding: 20px;
+  color: rgb(252, 253, 241);
+}
+
+.Home {
+  text-align: center;
+
+}
+
+.Home-logo {
+  height: 20vw;
+  
+}
+
+.Home-header {
+  background-color: rgba(123, 212, 253, .75);
+  height: 30vh;
+  padding: 20px;
+  color: rgb(252, 253, 241);
+  margin: 5vh;
+  border-radius: 20px;
+}
+
+.Home-intro {
+  font-size: large;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgba(123, 212, 253, .75);
+  border-radius: 20px;
+}
+
+.project {
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  background-color: rgb(123, 212, 253);
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+#towers {
+  background-image: url('../public/project_1_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#wellnyss {
+  background-image: url('../public/project_2_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
