@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(73, 180, 247);
   background: url("../public/background.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -13,22 +14,22 @@ background-size: cover;
 }
 
 .Home {
-  text-align: center;
+
 
 }
 
 .Home-logo {
   height: 20vw;
-
+  border-radius: 50%;
 }
 
 .Home-header {
   background-color: rgba(123, 212, 253, .75);
-  /*height: 30vh;*/
+  text-align: center;
   color: rgb(252, 253, 241);
   margin: 3vh;
   padding: 1vh;
-  border-radius: 20px;
+  /*border-radius: 20px;*/
 }
 
 .Home-intro {
@@ -40,7 +41,7 @@ background-size: cover;
   justify-content: center;
   flex-wrap: wrap;
   background-color: rgba(123, 212, 253, .75);
-  border-radius: 20px;
+  /*border-radius: 20px;*/
   margin: 3vh
 }
 
@@ -50,7 +51,7 @@ background-size: cover;
   margin: 5vw;
   background-color: rgb(123, 212, 253);
   border: 1px solid white;
-  border-radius: 1vw;
+  /*border-radius: 1vw;*/
 }
 
 #towers {
