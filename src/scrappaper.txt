@@ -1,0 +1,5 @@
+<div className="Home-header">
+  <img src={profile} className="Home-logo" alt="profile" />
+  <h1>Wes Coffay</h1>
+  <h3>Apprentice Web Developer</h3>
+</div>

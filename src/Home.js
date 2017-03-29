@@ -7,11 +7,16 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        <div className="Home-header">
-          <img src={profile} className="Home-logo" alt="profile" />
-          <h1>Wes Coffay</h1>
-          <h3>Apprentice Web Developer</h3>
+      <div className="Home-header">
+        <img src={profile} className="Home-logo" alt="profile" />
+        <div class="holder">
+
+          <div class="topbar">
+            <h1>Wes Coffay</h1>
+            <h3>Apprentice Web Developer</h3>
+          </div>
         </div>
+      </div>
         <div className="portfolio">
           <a href="https://justwes2.github.io/ga-project-1/">
             <div className='project' id='towers'>
@@ -21,9 +26,12 @@ class Home extends Component {
             <div className='project' id='wellnyss'>
             </div>
           </a>
+          <a href="https://laurkgol.github.io/Front_End_Link_Proj_3/#/">
+            <div className='project' id='link'>
+            </div>
+          </a>
           <div className='project'>
-          </div>
-          <div className='project'>
+            Coming Soon!
           </div>
 
         </div>

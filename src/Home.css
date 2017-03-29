@@ -19,15 +19,15 @@ background-size: cover;
 
 .Home-logo {
   height: 20vw;
-  
+
 }
 
 .Home-header {
   background-color: rgba(123, 212, 253, .75);
-  height: 30vh;
-  padding: 20px;
+  /*height: 30vh;*/
   color: rgb(252, 253, 241);
-  margin: 5vh;
+  margin: 3vh;
+  padding: 1vh;
   border-radius: 20px;
 }
 
@@ -41,15 +41,16 @@ background-size: cover;
   flex-wrap: wrap;
   background-color: rgba(123, 212, 253, .75);
   border-radius: 20px;
+  margin: 3vh
 }
 
 .project {
-  height: 200px;
-  width: 200px;
-  margin: 30px;
+  height: 25vw;
+  width: 25vw;
+  margin: 5vw;
   background-color: rgb(123, 212, 253);
   border: 1px solid white;
-  border-radius: 20px;
+  border-radius: 1vw;
 }
 
 #towers {
@@ -60,6 +61,12 @@ background-size: cover;
 
 #wellnyss {
   background-image: url('../public/project_2_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#link {
+  background-image: url('../public/project_3_thumb.png');
   background-size: cover;
   background-position: center;
 }
