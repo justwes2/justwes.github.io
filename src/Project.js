@@ -4,18 +4,16 @@ class Project extends Component {
   constructor(props){
     super(props)
     this.state={
-      project: this.props.location.selectedProject
+      project: this.props.location
     }
   }
   render(){
     console.log(this.props);
     console.log(this.state);
     return(
-      <div>
-        {this.props.selectedProject.name}
-        // {this.props.project.site}
-        // {this.props.project.repo}
-        // {this.props.project.about}
+      <div className="portfolio">
+        {this.props.project}
+
       </div>
     )
   }

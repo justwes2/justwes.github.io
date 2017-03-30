@@ -52,19 +52,19 @@ nav {
   /*border-radius: 1vw;*/
 }
 
-#towers {
+#project_1 {
   background-image: url('../public/project_1_thumb.png');
   background-size: cover;
   background-position: center;
 }
 
-#wellnyss {
+#project_2 {
   background-image: url('../public/project_2_thumb.png');
   background-size: cover;
   background-position: center;
 }
 
-#link {
+#project_3 {
   background-image: url('../public/project_3_thumb.png');
   background-size: cover;
   background-position: center;
