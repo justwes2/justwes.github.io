@@ -6,9 +6,17 @@ import {
 } from 'react-router-dom'
 
 import profile from '../public/profile.jpg'
+import Project from './Project'
+import data from '../data/project-data.json'
 import './Home.css';
 
 class Home extends Component {
+  constructor() {
+    super()
+    this.state = {
+      projects: data
+    }
+  }
   render() {
     return (
       <Router>
@@ -34,10 +42,14 @@ class Home extends Component {
                       <div className='project' id='towers'>
                       </div>
                     </a>
-                    <a href="https://wellnyss.herokuapp.com/">
+                    <Link
+                      to={{
+                        pathname: "/projects/2",
+                        state: {selectedProject: 2}
+                      }}>
                       <div className='project' id='wellnyss'>
                       </div>
-                    </a>
+                    </Link>
                     <a href="https://laurkgol.github.io/Front_End_Link_Proj_3/#/">
                       <div className='project' id='link'>
                       </div>
@@ -68,6 +80,16 @@ class Home extends Component {
                       </div>
                     </div>
                   </div>
+                )
+              }}
+            />
+            <Route
+              path='/projects/:key'
+              render={() => {
+                return(
+                  <Project
+                    selectedProject= {this.state.projects}
+                  />
                 )
               }}
             />

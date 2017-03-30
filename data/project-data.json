@@ -1,7 +1,7 @@
 [
-  {"name": "Towers of Hanoi", "site": "https://justwes2.github.io/ga-project-1/", "repo": "https://github.com/justwes2/ga-project-1", "about": "Ballast cackle fruit ho aft bounty ahoy hempen halter wench fathom run a rig."},
-  {"name": "Wellnyss", "site": "https://wellnyss.herokuapp.com/", "repo": "https://github.com/justwes2/wellnyss", "about": "Chain Shot long clothes man-of-war six pounders lateen sail swab Barbary Coast heave down scourge of the seven seas chase."},
-  {"name": "Link", "site": "https://laurkgol.github.io/Front_End_Link_Proj_3/#/", "repo": "https://github.com/laurkgol/Front_End_Link_Proj_3", "about": "Yo-ho-ho six pounders Jack Ketch draught brig smartly lee case shot coxswain overhaul."},
-  {"name": "Coming Soon!", "site": "#", "repo": "#", "about": "Scuttle Yellow Jack gaff Jack Tar parley Cat o'nine tails pink weigh anchor skysail bilge rat."},
+  {"key": 1,"name": "Towers of Hanoi", "site": "https://justwes2.github.io/ga-project-1/", "repo": "https://github.com/justwes2/ga-project-1", "about": "Ballast cackle fruit ho aft bounty ahoy hempen halter wench fathom run a rig."},
+  {"key": 2,"name": "Wellnyss", "site": "https://wellnyss.herokuapp.com/", "repo": "https://github.com/justwes2/wellnyss", "about": "Chain Shot long clothes man-of-war six pounders lateen sail swab Barbary Coast heave down scourge of the seven seas chase."},
+  {"key": 3,"name": "Link", "site": "https://laurkgol.github.io/Front_End_Link_Proj_3/#/", "repo": "https://github.com/laurkgol/Front_End_Link_Proj_3", "about": "Yo-ho-ho six pounders Jack Ketch draught brig smartly lee case shot coxswain overhaul."},
+  {"key": 4,"name": "Coming Soon!", "site": "#", "repo": "#", "about": "Scuttle Yellow Jack gaff Jack Tar parley Cat o'nine tails pink weigh anchor skysail bilge rat."}
 
 ]
