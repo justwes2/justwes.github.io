@@ -5,17 +5,9 @@ body {
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-  font-family: 'Crimson Text', serif;
+  font-family: 'Raleway', sans-serif;
   padding: 20px;
   color: rgb(252, 253, 241);
-  font-family: 'Crimson Text', serif;
-  padding: 20px;
-  color: rgb(252, 253, 241);
-}
-
-.Home {
-
-
 }
 
 .Home-logo {
@@ -32,8 +24,14 @@ background-size: cover;
   /*border-radius: 20px;*/
 }
 
-.Home-intro {
-  font-size: large;
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navOp > a {
+  color: rgb(252, 253, 241);
+  text-decoration: none;
 }
 
 .portfolio {
@@ -70,4 +68,17 @@ background-size: cover;
   background-image: url('../public/project_3_thumb.png');
   background-size: cover;
   background-position: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+
+.bio {
+  width: 50%;
+  padding: 1vh;
+  margin: 3vh;
+  background-color: rgba(123, 212, 253, .75);
+
 }
