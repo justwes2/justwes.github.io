@@ -16,6 +16,7 @@ class Tile extends Component {
       let url = '/projects/'+a.key
       let alias ='project_'+a.key
       return (
+
         <Link
           to={{
             pathname: url,
@@ -23,14 +24,17 @@ class Tile extends Component {
           }}
           key={a.key}>
           <div className='project' id={alias}>
-            {a.name}
+
           </div>
         </Link>
       )
     })
     return(
       <div className="portfolio">
-        {tiles}
+      <h3>Gallary</h3><br/>
+        <div className="portfolio">
+          {tiles}
+        </div>
       </div>
     )
   }

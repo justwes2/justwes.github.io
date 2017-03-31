@@ -44,13 +44,7 @@ class Home extends Component {
             />
             <Route
               path='/projects/:key'
-              render={() => {
-                return(
-                  <Project
-                    project= {this.state.project}
-                  />
-                )
-              }}
+              component = {Project}
             />
             <Route
             path='/contact'
@@ -76,6 +70,7 @@ class Home extends Component {
             />
           </main>
         </div>
+
       </Router>
     );
   }
