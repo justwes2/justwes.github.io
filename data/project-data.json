@@ -1,7 +1,0 @@
-[
-  {"key": 1,"name": "Towers of Hanoi", "site": "https://justwes2.github.io/ga-project-1/", "repo": "https://github.com/justwes2/ga-project-1", "about": "This was my first coding project, it's built with html, css, and jQuery. Towers of Hanoi is a classic mathematical riddle, so I built an app for users to solve it. I made it after only a few weeks of coding, and I use it as a reminder of how far I've come in a short time"},
-  {"key": 2,"name": "Wellnyss", "site": "https://wellnyss.herokuapp.com/", "repo": "https://github.com/justwes2/wellnyss", "about": "Wellnyss was built on Ruby on Rails after about two months of coding. The app allows users to report mental wellness self assessments and get targeted feedback based on the report. Coming from a psychiatric rehab background, it was rewarding to apply my coding skillset to problems I faced in my former occupation"},
-  {"key": 3,"name": "Link", "site": "https://laurkgol.github.io/Front_End_Link_Proj_3/#/", "repo": "https://github.com/laurkgol/Front_End_Link_Proj_3", "about": "I built Link as a part of a small agile team; it is built on Angular.js with a independently hosted Rails server. Link is an app for web dev students to create profiles, and sign up to attend events relevant to their studies. Link was a great opporunity to code as a team, and learn about the advantages and potential pitfalls of doing so."},
-  {"key": 4,"name": "Coming Soon!", "site": "#", "repo": "#", "about": "I'm working on this right now! Stay tuned to see what I've got in mind!"}
-
-]
