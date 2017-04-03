@@ -9,6 +9,7 @@ import profile from '../public/profile.jpg'
 import Tiles from './Tiles'
 import Project from './Project'
 import data from '../data/project-data.json'
+import logo from './logo.svg';
 import './Home.css';
 
 class Home extends Component {
@@ -55,8 +56,8 @@ class Home extends Component {
                 <div className="bio">
                 <h4>Where to find me</h4>
                 <ul>
-                <li>LinkedIn</li><br/>
-                <li>Github</li><br/>
+                <li><a href="https://www.linkedin.com/in/wes-coffay-4027b040">LinkedIn</a></li><br/>
+                <li><a href="https://github.com/justwes2">Github</a></li><br/>
                 <li>Or email me at wes.coffay[a]gmail.com</li>
                 </ul>
                 </div>
@@ -69,6 +70,9 @@ class Home extends Component {
             }}
             />
           </main>
+          <footer>
+          <p>Built on React <img src={logo} className="App-logo" alt="logo" /> <a href="https://github.com/justwes2/portfolio_page">See the code</a></p>
+          </footer>
         </div>
 
       </Router>

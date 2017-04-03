@@ -85,3 +85,21 @@ nav {
   background-color: rgba(123, 212, 253, .75);
 
 }
+
+footer {
+  background-color: rgba(123, 212, 253, .75);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 3vh;
+  margin-top: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 5vh;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
