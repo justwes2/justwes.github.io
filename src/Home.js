@@ -29,8 +29,8 @@ class Home extends Component {
               <h1>Wes Coffay</h1>
               <h3>Apprentice Web Developer</h3>
               <nav>
-                <div className='navOp'><Link to="/">Home </Link></div>
-                <div className='navOp'><Link to="/contact">Contact </Link></div>
+                <div className='navOp'><Link to="/portfolio_page/">Home </Link></div>
+                <div className='navOp'><Link to="/portfolio_page/contact">Contact </Link></div>
               </nav>
             </div>
           </div>
