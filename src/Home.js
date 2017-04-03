@@ -36,7 +36,7 @@ class Home extends Component {
           </div>
           <main>
             <Route
-              exact path='/'
+              exact path='/portfolio_page/'
               render={() => {
                 return(
                   <Tiles />
@@ -44,11 +44,11 @@ class Home extends Component {
               }}
             />
             <Route
-              path='/projects/:key'
+              path='/portfolio_page/projects/:key'
               component = {Project}
             />
             <Route
-            path='/contact'
+            path='/portfolio_page/contact'
             render={() => {
               return(
                 <div className="portfolio">
