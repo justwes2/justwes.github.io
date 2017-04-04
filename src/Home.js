@@ -29,14 +29,14 @@ class Home extends Component {
               <h1>Wes Coffay</h1>
               <h3>Apprentice Web Developer</h3>
               <nav>
-                <div className='navOp'><Link to="/portfolio/">Home </Link></div>
-                <div className='navOp'><Link to="/portfolio/contact">Contact </Link></div>
+                <div className='navOp'><Link to="/portfolio_page/">Home </Link></div>
+                <div className='navOp'><Link to="/portfolio_page/contact">Contact </Link></div>
               </nav>
             </div>
           </div>
           <main>
             <Route
-              exact path='/portfolio/'
+              exact path='/portfolio_page/'
               render={() => {
                 return(
                   <Tiles />
@@ -44,11 +44,11 @@ class Home extends Component {
               }}
             />
             <Route
-              path='/portfolio/projects/:key'
+              path='/portfolio_page/projects/:key'
               component = {Project}
             />
             <Route
-            path='/portfolio/contact'
+            path='/portfolio_page/contact'
             render={() => {
               return(
                 <div className="portfolio">
@@ -71,7 +71,7 @@ class Home extends Component {
             />
           </main>
           <footer>
-          <p>Built on React <img src={logo} className="App-logo" alt="logo" /> <a href="https://github.com/justwes2/portfolio">See the code</a></p>
+          <p>Built on React <img src={logo} className="App-logo" alt="logo" /> <a href="https://github.com/justwes2/portfolio_page">See the code</a></p>
           </footer>
         </div>
 
