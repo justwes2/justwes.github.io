@@ -3,11 +3,11 @@
 }
 body {
   background-color: rgb(73, 180, 247);
-  background: url("../public/background.jpg") no-repeat center center fixed;
+  /*background: url("../public/background.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: cover;*/
   font-family: 'Raleway', sans-serif;
   padding: 20px;
   color: rgb(252, 253, 241);
@@ -69,6 +69,12 @@ nav {
 
 #project_3 {
   background-image: url('../public/project_3_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#project_4 {
+  background-image: url('../public/project_4_thumb.png');
   background-size: cover;
   background-position: center;
 }
