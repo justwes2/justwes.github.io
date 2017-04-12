@@ -30,12 +30,11 @@ class Tile extends Component {
       )
     })
     return(
-      <div className="portfolio">
-      <h3>Gallery</h3><br/>
+      
         <div className="portfolio">
           {tiles}
         </div>
-      </div>
+
     )
   }
 }

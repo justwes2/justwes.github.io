@@ -3,14 +3,14 @@
 }
 body {
   background-color: rgb(73, 180, 247);
-  /*background: url("../public/background.jpg") no-repeat center center fixed;
+  background: url("../public/background.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;*/
+background-size: cover;
   font-family: 'Raleway', sans-serif;
   padding: 20px;
-  color: rgb(252, 253, 241);
+  color: black;
 }
 
 .Home-logo {
@@ -19,9 +19,9 @@ background-size: cover;*/
 }
 
 .Home-header {
-  background-color: rgba(123, 212, 253, .75);
+  /*background-color: rgba(123, 212, 253, .75);*/
   text-align: center;
-  color: rgb(252, 253, 241);
+  color: black;
   margin: 3vh;
   padding: 1vh;
   /*border-radius: 20px;*/
@@ -33,15 +33,23 @@ nav {
 }
 
 * > a {
-  color: rgb(252, 253, 241);
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  color: rgb(125, 125, 120)
+}
+
+a > div:hover {
+  border-color: rgb(125, 125, 120)
 }
 
 .portfolio {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: rgba(123, 212, 253, .75);
+  /*background-color: rgba(123, 212, 253, .75);*/
   /*border-radius: 20px;*/
   margin: 3vh
 }
@@ -49,8 +57,10 @@ nav {
 .project {
   height: 25vw;
   width: 25vw;
+  min-height: 180px;
+  min-width: 180px;
   margin: 5vw;
-  background-color: rgb(123, 212, 253);
+  /*background-color: rgb(123, 212, 253);*/
   border: 1px solid white;
   /*border-radius: 1vw;*/
 }
@@ -88,12 +98,12 @@ nav {
   width: 50%;
   padding: 3vh;
   margin: 3vh;
-  background-color: rgba(123, 212, 253, .75);
+  background-color: rgba(227, 227, 217, .5);
 
 }
 
 footer {
-  background-color: rgba(123, 212, 253, .75);
+  /*background-color: rgba(123, 212, 253, .75);*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

@@ -27,10 +27,11 @@ class Home extends Component {
             <img src={profile} className="Home-logo" alt="profile" />
             <div>
               <h1>Wes Coffay</h1>
-              <h3>Apprentice Web Developer</h3>
+              <h3>Web Developer</h3>
+              <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
               <nav>
-                <div className='navOp'><Link to="/">Home </Link></div>
-                <div className='navOp'><Link to="/contact">Contact </Link></div>
+                <div className='navOp'><Link to="/">Gallery </Link></div>
+                <div className='navOp'><Link to="/contact">About </Link></div>
               </nav>
             </div>
           </div>
