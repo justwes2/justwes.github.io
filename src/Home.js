@@ -57,13 +57,14 @@ class Home extends Component {
                 <div className="bio">
                 <h4>Where to find me</h4>
                 <ul>
-                <li><a href="https://www.linkedin.com/in/wes-coffay-4027b040">LinkedIn</a></li><br/>
-                <li><a href="https://github.com/justwes2">Github</a></li><br/>
+                <li><a href="https://www.linkedin.com/in/wes-coffay-4027b040">My LinkedIn</a></li><br/>
+                <li><a href="https://github.com/justwes2">My Github</a></li><br/>
                 <li>Or email me at wes.coffay[a]gmail.com</li>
                 </ul>
                 </div>
                 <div className="bio">
-                <p>I am a web developer firmly grounded in user – centered planning. I approach projects like I approach client treatment plans – I work with the client to isolate not just the problem, but the strengths, preferences, and background. I want to solve the underlying problem, not just the coding challenges.</p>
+                  <h4>About Me</h4>
+                  <p>I am a web developer firmly grounded in user – centered planning. I approach projects like I approach client treatment plans – I work with the client to isolate not only the problem, but the strengths, preferences, and background. I want to solve the underlying problem, not just the coding challenges.</p>
                 </div>
                 </div>
                 </div>
