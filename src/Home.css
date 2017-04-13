@@ -1,16 +1,28 @@
 * {
   font-family: 'Raleway', sans-serif;
+  color: white;
 }
 body {
   background-color: rgb(73, 180, 247);
-  background: url("../public/background.jpg") no-repeat center center fixed;
+  /*background: url("../public/background.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;*/
+  /*background: url("../public/background2.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;*/
+  background: url("../public/background3.jpg") no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-  font-family: 'Raleway', sans-serif;
+  /*font-family: 'Raleway', sans-serif;*/
   padding: 20px;
-  color: black;
+  color: white;
+  font-size: 1.5em;
 }
 
 .Home-logo {
@@ -33,7 +45,7 @@ nav {
 }
 
 * > a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -98,7 +110,7 @@ a > div:hover {
   width: 50%;
   padding: 3vh;
   margin: 3vh;
-  background-color: rgba(227, 227, 217, .5);
+  background-color: rgba(151, 140, 146, .7);
 
 }
 
