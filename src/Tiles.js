@@ -24,13 +24,13 @@ class Tile extends Component {
           }}
           key={a.key}>
           <div className='project' id={alias}>
-
+            <h4 className='title'>{a.name}<br/>Click for more info</h4>
           </div>
         </Link>
       )
     })
     return(
-      
+
         <div className="portfolio">
           {tiles}
         </div>

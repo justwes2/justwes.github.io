@@ -30,7 +30,7 @@ class Home extends Component {
               <h3>Web Developer</h3>
               <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
               <nav>
-                <div className='navOp'><Link to="/">Gallery </Link></div>
+                <div className='navOp'><Link to="/">My Work </Link></div>
                 <div className='navOp'><Link to="/contact">About </Link></div>
               </nav>
             </div>
