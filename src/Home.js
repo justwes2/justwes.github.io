@@ -8,6 +8,7 @@ import {
 import profile from '../public/profile.jpg'
 import Tiles from './Tiles'
 import Project from './Project'
+import MyPdfViewer from './MyPdfViewer'
 import data from '../data/project-data.json'
 import logo from './logo.svg';
 import './Home.css';
@@ -31,6 +32,7 @@ class Home extends Component {
               <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
               <nav>
                 <div className='navOp'><Link to="/">My Work </Link></div>
+                <div className='navOp'><Link to="/resume">Resume </Link></div>
                 <div className='navOp'><Link to="/contact">About </Link></div>
               </nav>
             </div>
@@ -47,6 +49,14 @@ class Home extends Component {
             <Route
               path='/projects/:key'
               component = {Project}
+            />
+            <Route
+              path='/resume'
+              render={() => {
+                return(
+                  <MyPdfViewer />
+                )
+              }}
             />
             <Route
             path='/contact'
