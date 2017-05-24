@@ -25,16 +25,16 @@ class Home extends Component {
       <Router>
         <div className="Home">
           <div className="Home-header">
+            <nav>
+              <div className='navOp'><Link to="/contact">About </Link></div>
+              <div className='navOp'><Link to="/">My Work </Link></div>
+              <div className='navOp'><Link to="/resume">Resume </Link></div>
+            </nav>
             <img src={profile} className="Home-logo" alt="profile" />
             <div>
               <h1 className="nameLogo">Wes Coffay</h1>
               <h3>Web Developer</h3>
               <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
-              <nav>
-                <div className='navOp'><Link to="/">My Work </Link></div>
-                <div className='navOp'><Link to="/resume">Resume </Link></div>
-                <div className='navOp'><Link to="/contact">About </Link></div>
-              </nav>
             </div>
           </div>
           <main>

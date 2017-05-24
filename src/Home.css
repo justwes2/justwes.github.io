@@ -2,6 +2,7 @@
   font-family: 'Raleway', sans-serif;
   color: white;
 }
+
 body {
   background-color: rgb(73, 180, 247);
   background: url("../public/background3.jpg") no-repeat center center fixed;
@@ -29,6 +30,8 @@ body {
 nav {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 5vh;
+  font-size: 1.2em;
 }
 
 * > a {
