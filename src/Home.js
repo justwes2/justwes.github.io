@@ -27,7 +27,7 @@ class Home extends Component {
           <div className="Home-header">
             <img src={profile} className="Home-logo" alt="profile" />
             <div>
-              <h1>Wes Coffay</h1>
+              <h1 className="nameLogo">Wes Coffay</h1>
               <h3>Web Developer</h3>
               <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
               <nav>
