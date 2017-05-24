@@ -49,7 +49,7 @@ class MyPdfViewer extends React.Component {
   render() {
 
     return (
-      <div>
+      <div className="canvasContainer">
         <PDF file={myPDF}  />
 
       </div>

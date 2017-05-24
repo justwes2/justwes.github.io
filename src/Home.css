@@ -4,25 +4,13 @@
 }
 body {
   background-color: rgb(73, 180, 247);
-  /*background: url("../public/background.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;*/
-  /*background: url("../public/background2.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;*/
   background: url("../public/background3.jpg") no-repeat center center fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-  /*font-family: 'Raleway', sans-serif;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   padding: 20px;
   color: white;
-  /*font-size: 1.5em;*/
 }
 
 .Home-logo {
@@ -36,7 +24,6 @@ background-size: cover;
   color: black;
   margin: 3vh;
   padding: 1vh;
-  /*border-radius: 20px;*/
 }
 
 nav {
@@ -61,8 +48,6 @@ a > div:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /*background-color: rgba(123, 212, 253, .75);*/
-  /*border-radius: 20px;*/
   margin: 3vh
 }
 
@@ -72,9 +57,7 @@ a > div:hover {
   min-height: 180px;
   min-width: 180px;
   margin: 5vw;
-  /*background-color: rgb(123, 212, 253);*/
   border: 1px solid white;
-  /*border-radius: 1vw;*/
   position: relative;
 }
 
@@ -84,8 +67,6 @@ a > div:hover {
     right: 0;
     background-color: rgba(151, 140, 146, .7);
 }
-
-
 
 #project_1 {
   background-image: url('../public/project_1_thumb.png');
@@ -125,7 +106,6 @@ a > div:hover {
 }
 
 footer {
-  /*background-color: rgba(123, 212, 253, .75);*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -133,6 +113,10 @@ footer {
   margin-top: 20px;
 }
 
+.canvasContainer {
+  display: flex;
+  justify-content: center;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 5vh;
