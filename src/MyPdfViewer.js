@@ -1,5 +1,6 @@
 import React from 'react';
 import PDF from 'react-pdf-js';
+import myPDF from "../public/CoffayResume.pdf"
 
 class MyPdfViewer extends React.Component {
   constructor(props) {
@@ -49,7 +50,7 @@ class MyPdfViewer extends React.Component {
 
     return (
       <div>
-        <PDF file="../public/CoffayResume.pdf"  />
+        <PDF file={myPDF}  />
 
       </div>
     )
