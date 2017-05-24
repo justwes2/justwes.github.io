@@ -95,6 +95,11 @@ a > div:hover {
   background-position: center;
 }
 
+#project_5 {
+  background-image: url('../public/project_5_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
 .contact {
   display: flex;
   flex-direction: row;
