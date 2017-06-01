@@ -8,7 +8,7 @@ import {
 import profile from '../public/profile.jpg'
 import Tiles from './Tiles'
 import Project from './Project'
-import MyPdfViewer from './MyPdfViewer'
+import Resume from './Resume'
 import data from '../data/project-data.json'
 import logo from './logo.svg';
 import './Home.css';
@@ -54,7 +54,7 @@ class Home extends Component {
               path='/resume'
               render={() => {
                 return(
-                  <MyPdfViewer />
+                  <Resume />
                 )
               }}
             />
