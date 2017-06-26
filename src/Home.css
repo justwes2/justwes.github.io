@@ -10,7 +10,6 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 20px;
   color: white;
 }
 
@@ -36,7 +35,6 @@ nav {
 
 * > a {
   color: white;
-  text-decoration: none;
 }
 
 a:hover {
