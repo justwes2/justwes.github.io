@@ -17,16 +17,21 @@ class Tile extends Component {
       let alias ='project_'+a.key
       return (
 
-        <Link
-          to={{
-            pathname: url,
-            state: {selectedProject: a}
-          }}
-          key={a.key}>
-          <div className='project' id={alias}>
-            <h4 className='title'>{a.name}<br/>Click for more info</h4>
+
+
+          <div className="portfolio">
+            <div className='project' id={alias}>
+            </div>
+            <div className='bio'>
+            <p>{a.name}</p>
+            <p><a href={a.site}>Check it out</a></p>
+            <p><a href={a.repo}>See the code</a></p>
+            <p>{a.about}</p>
+
+            </div>
+
           </div>
-        </Link>
+        
       )
     })
     return(
