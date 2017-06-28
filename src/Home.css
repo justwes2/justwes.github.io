@@ -23,7 +23,11 @@ body {
   text-align: center;
   color: black;
   margin: 3vh;
-  padding: 1vh;
+  padding: 3vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
 }
 
 nav {

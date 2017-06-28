@@ -5,7 +5,7 @@ import {
   Link
 } from 'react-router-dom'
 
-import profile from '../public/profile.jpg'
+import profile from '../public/profile2.jpg'
 import Tiles from './Tiles'
 import Project from './Project'
 import Resume from './Resume'
