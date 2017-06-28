@@ -62,7 +62,7 @@ class Home extends Component {
             path='/contact'
             render={() => {
               return(
-                <div className="portfolio">
+                <div className="container">
                 <div className="contact">
                 <div className="bio">
                 <h4>Where to find me</h4>

@@ -20,7 +20,7 @@ class Tile extends Component {
             <div className="portfolio">
               <div className='project' id={alias}>
               </div>
-              <div className='bio'>
+              <div className='detail'>
                 <p>{a.name}</p>
                 <p><a href={a.site}>Check it out</a></p>
                 <p><a href={a.repo}>See the code</a></p>
@@ -31,7 +31,7 @@ class Tile extends Component {
       } else {
         return (
             <div className="portfolio">
-              <div className='bio'>
+              <div className='detail'>
                 <p>{a.name}</p>
                 <p><a href={a.site}>Check it out</a></p>
                 <p><a href={a.repo}>See the code</a></p>
@@ -44,11 +44,9 @@ class Tile extends Component {
       }
     })
     return(
-
-        <div className="portfolio">
+        <div className="container">
           {tiles}
         </div>
-
     )
   }
 }
