@@ -24,12 +24,12 @@ class Home extends Component {
     return (
       <Router>
         <div className="Home">
+          <nav>
+            <div className='navOp'><Link to="/contact">About </Link></div>
+            <div className='navOp'><Link to="/">My Work </Link></div>
+            <div className='navOp'><Link to="/resume">Resume </Link></div>
+          </nav>
           <div className="Home-header">
-            <nav>
-              <div className='navOp'><Link to="/contact">About </Link></div>
-              <div className='navOp'><Link to="/">My Work </Link></div>
-              <div className='navOp'><Link to="/resume">Resume </Link></div>
-            </nav>
             <img src={profile} className="Home-logo" alt="profile" />
             <div>
               <h1 className="nameLogo">Wes Coffay</h1>

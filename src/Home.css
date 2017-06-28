@@ -31,6 +31,10 @@ nav {
   justify-content: space-around;
   margin-bottom: 5vh;
   font-size: 1.2em;
+  background-color: rgb(151, 140, 146);
+  padding: 1vh;
+  position: sticky;
+  top: 0;
 }
 
 * > a {
