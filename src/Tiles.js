@@ -21,7 +21,7 @@ class Tile extends Component {
               <div className='project' id={alias}>
               </div>
               <div className='detail'>
-                <p>{a.name}</p>
+                <p className='titleLogo'>{a.name}</p>
                 <p><a href={a.site}>Check it out</a></p>
                 <p><a href={a.repo}>See the code</a></p>
                 <p>{a.about}</p>
@@ -32,7 +32,7 @@ class Tile extends Component {
         return (
             <div className="portfolio">
               <div className='detail'>
-                <p>{a.name}</p>
+                <p className='titleLogo'>{a.name}</p>
                 <p><a href={a.site}>Check it out</a></p>
                 <p><a href={a.repo}>See the code</a></p>
                 <p>{a.about}</p>
