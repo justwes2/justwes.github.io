@@ -15,24 +15,33 @@ class Tile extends Component {
     let tiles = data.map(function(a) {
       let url = '/projects/'+a.key
       let alias ='project_'+a.key
-      return (
-
-
-
-          <div className="portfolio">
-            <div className='project' id={alias}>
+      if(a.key%2==1){
+        return (
+            <div className="portfolio">
+              <div className='project' id={alias}>
+              </div>
+              <div className='bio'>
+                <p>{a.name}</p>
+                <p><a href={a.site}>Check it out</a></p>
+                <p><a href={a.repo}>See the code</a></p>
+                <p>{a.about}</p>
+              </div>
             </div>
-            <div className='bio'>
-            <p>{a.name}</p>
-            <p><a href={a.site}>Check it out</a></p>
-            <p><a href={a.repo}>See the code</a></p>
-            <p>{a.about}</p>
-
+        )
+      } else {
+        return (
+            <div className="portfolio">
+              <div className='bio'>
+                <p>{a.name}</p>
+                <p><a href={a.site}>Check it out</a></p>
+                <p><a href={a.repo}>See the code</a></p>
+                <p>{a.about}</p>
+              </div>
+              <div className='project' id={alias}>
+              </div>
             </div>
-
-          </div>
-        
-      )
+        )
+      }
     })
     return(
 
