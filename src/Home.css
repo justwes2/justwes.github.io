@@ -119,6 +119,13 @@ a > div:hover {
   background-size: cover;
   background-position: center;
 }
+
+#project_6 {
+  background-image: url('../public/project_6_thumb.png');
+  background-size: cover;
+  background-position: center;
+}
+
 .contact {
   display: flex;
   flex-direction: row;
