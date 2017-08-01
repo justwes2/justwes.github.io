@@ -18,12 +18,14 @@ class Tile extends Component {
       if(a.key%2==1){
         return (
             <div className="portfolio">
+
               <div className='project' id={alias}>
               </div>
               <div className='detail'>
                 <p className='titleLogo'>{a.name}</p>
-                <p><a href={a.site}>Check it out</a></p>
-                <p><a href={a.repo}>See the code</a></p>
+                <p><a className='projectAnchor' href={a.site}>Check it out</a></p>
+                <p><a className='projectAnchor' href={a.repo}>See the code</a></p>
+                <p>Technologies used: {a.tech}</p>
                 <p>{a.about}</p>
               </div>
             </div>
@@ -33,8 +35,8 @@ class Tile extends Component {
             <div className="portfolio">
               <div className='detail'>
                 <p className='titleLogo'>{a.name}</p>
-                <p><a href={a.site}>Check it out</a></p>
-                <p><a href={a.repo}>See the code</a></p>
+                <p><a className='projectAnchor' href={a.site}>Check it out</a></p>
+                <p><a className='projectAnchor' href={a.repo}>See the code</a></p>
                 <p>{a.about}</p>
               </div>
               <div className='project' id={alias}>
@@ -45,6 +47,7 @@ class Tile extends Component {
     })
     return(
         <div className="container">
+        <div className="detail portfolio"><h1>My Work</h1><br/></div>
           {tiles}
         </div>
     )

@@ -11,8 +11,8 @@ class Resume extends React.Component {
   render() {
 
     return (
-      <div className="canvasContainer">
-        <img src={image} alt="resume" />
+      <div>
+        <img className="canvasContainer" src={image} alt="resume" />
 
       </div>
     )

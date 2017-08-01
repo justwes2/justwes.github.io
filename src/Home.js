@@ -34,7 +34,7 @@ class Home extends Component {
             <div>
               <h1 className="nameLogo">Wes Coffay</h1>
               <h3>Web Developer</h3>
-              <h4>Someone tricked a rock into thinking, I try to make it think better.</h4>
+              <h4>I am a web developer firmly grounded in user – centered planning. I approach projects like I approach client treatment plans – I work with the client to isolate not only the problem, but the strengths, preferences, and background. I want to solve the underlying problem, not just the coding challenges.</h4>
             </div>
           </div>
           <main>

@@ -1,7 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
   color: white;
-  font-size: 105%;
 }
 
 body {
@@ -85,9 +84,9 @@ a > div:hover {
 
 .title {
   position: absolute;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(151, 140, 146, .7);
+  bottom: 0;
+  right: 0;
+  background-color: rgba(151, 140, 146, .7);
 }
 
 #project_1 {
@@ -153,8 +152,11 @@ footer {
 }
 
 .canvasContainer {
+  margin: 3vw;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  width: 94vw;
 }
 
 .nameLogo {
@@ -165,6 +167,10 @@ footer {
 .titleLogo {
   font-family: 'Poiret One', cursive;
   font-size: 2em;
+}
+
+.projectAnchor {
+  font-size: 140%;
 }
 
 .App-logo {
