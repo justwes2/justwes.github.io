@@ -74,7 +74,8 @@ class Home extends Component {
                 </div>
                 <div className="bio">
                   <h4>About Me</h4>
-                  <p>I am a web developer firmly grounded in user – centered planning. I approach projects like I approach client treatment plans – I work with the client to isolate not only the problem, but the strengths, preferences, and background. I want to solve the underlying problem, not just the coding challenges.</p>
+                  <p>I’m a web developer who loves working with both Javascript and Ruby libraries and frameworks. I found programming as a vocation where I can solve problems, both by creating apps that are effective, and by hunting down bugs and errors in code. I recently completed General Assembly's Web Development Immersive. I have deployed applications with React and Angular front ends, used both SQL and MongoDB for data storage, and am hungry for new technology to learn. <br/><br/>
+                  Prior to pivoting into coding, I worked in mental health. Working as a house counselor, a rehab group facilitator, and most recently, a homeless outreach case manager, I worked with individuals experiencing severe mental illness, like schizophrenia, bipolar, and major depression, to achieve their goals.  </p>
                 </div>
                 </div>
                 </div>
