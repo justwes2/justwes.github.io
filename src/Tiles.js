@@ -37,6 +37,7 @@ class Tile extends Component {
                 <p className='titleLogo'>{a.name}</p>
                 <p><a className='projectAnchor' href={a.site}>Check it out</a></p>
                 <p><a className='projectAnchor' href={a.repo}>See the code</a></p>
+                <p>Technologies used: {a.tech}</p>
                 <p>{a.about}</p>
               </div>
               <div className='project' id={alias}>
