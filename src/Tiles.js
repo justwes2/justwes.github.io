@@ -6,6 +6,7 @@ import {
   Link,
   Redirect
 } from 'react-router-dom'
+import PortNav from './PortNav'
 
 class Tile extends Component {
   constructor(props){
@@ -48,7 +49,7 @@ class Tile extends Component {
     })
     return(
         <div className="container">
-        <div className="detail portfolio"><h1><Link to="/">Web </Link><Link to="/aws">AWS </Link><Link to="/chef">Chef </Link></h1><br/></div>
+        <PortNav />
           {tiles}
         </div>
     )

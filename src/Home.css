@@ -138,9 +138,12 @@ a > div:hover {
 }
 
 .detail {
-  width: 50%;
-  padding: 3vh;
+  width: 80vw;
+  padding: 1vh;
   margin: 3vh;
+  justify-content: space-around;
+  margin-bottom: 5vh;
+  font-size: .6em;
 }
 
 footer {

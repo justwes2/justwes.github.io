@@ -5,6 +5,7 @@ import {
   Link,
   Redirect
 } from 'react-router-dom'
+import PortNav from './PortNav'
 
 class Chef extends Component {
   constructor(props){
@@ -13,7 +14,7 @@ class Chef extends Component {
   render(){
     return(
         <div className="container">
-        <div className="detail portfolio"><h1><Link to="/">Web </Link><Link to="/aws">AWS </Link><Link to="/chef">Chef </Link></h1><br/></div>
+        <PortNav />
           <br/><h1>CHEF content here</h1>
         </div>
     )
