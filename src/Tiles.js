@@ -48,7 +48,7 @@ class Tile extends Component {
     })
     return(
         <div className="container">
-        <div className="detail portfolio"><h1>My Work</h1><br/></div>
+        <div className="detail portfolio"><h1><Link to="/">Web </Link><Link to="/aws">AWS </Link><Link to="/chef">Chef </Link></h1><br/></div>
           {tiles}
         </div>
     )

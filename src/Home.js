@@ -9,6 +9,8 @@ import profile from '../public/profile2.jpg'
 import Tiles from './Tiles'
 import Project from './Project'
 import Resume from './Resume'
+import Chef from './Chef'
+import Aws from './Aws'
 import data from '../data/project-data.json'
 import logo from './logo.svg';
 import './Home.css';
@@ -43,6 +45,22 @@ class Home extends Component {
               render={() => {
                 return(
                   <Tiles />
+                )
+              }}
+            />
+            <Route
+              exact path='/chef'
+              render={() => {
+                return(
+                  <Chef />
+                )
+              }}
+            />
+            <Route
+              exact path='/aws'
+              render={() => {
+                return(
+                  <Aws />
                 )
               }}
             />
