@@ -15,22 +15,26 @@ class Aws extends Component {
   }
   render(){
     let scripts = data.map(function(a) {
-      let url = '/aws_scripts/'+a.key
-      let alias = 'project_'+a.key
+      let url = '/script/'+a.symbol
       return(
           <div className="portfolio">
             <div className='detail'>
-              <p className='titleLogo'>{a.title}</p>
+            <Link
+            to={{
+              pathname: url,
+              state: {selectedScript: a}
+            }}
+            key={a.symbol}>
+            <p className='titleLogo'>{a.title}</p>
+            </Link>
               <p>{a.header}</p>
-              <EmbeddedGist gist={a.gist} />
-              <p>{a.walkthrough}</p>
             </div>
           </div>
       )
     })
     return(
       <div className="container">
-        <PortNav />
+        
         {scripts}
       </div>
     )

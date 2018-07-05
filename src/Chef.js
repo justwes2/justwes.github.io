@@ -14,7 +14,7 @@ class Chef extends Component {
   render(){
     return(
         <div className="container">
-          <PortNav />
+          
           <div className="portfolio">
             <p>While studying for my Chef certification, I've assembled reference documentation, which you can check out below</p>
           </div>
