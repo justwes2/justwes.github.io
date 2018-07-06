@@ -171,6 +171,10 @@ footer {
   width: 94vw;
 }
 
+.cert {
+  width: 25vw;
+}
+
 .nameLogo {
   font-family: 'Poiret One', cursive;
   font-size: 3em;

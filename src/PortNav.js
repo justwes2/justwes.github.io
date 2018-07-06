@@ -18,7 +18,7 @@ class PortNav extends Component {
             <h1><Link to="/">Web </Link></h1>
             <h1><Link to="/aws">AWS </Link></h1>
             <h1><Link to="/chef">Chef </Link></h1>
-            
+
           </div>
         </div>
     )

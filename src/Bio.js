@@ -7,6 +7,7 @@ import {
 } from 'react-router-dom'
 import PortNav from './PortNav'
 
+
 class Bio extends Component {
   constructor(props){
     super()
@@ -21,6 +22,14 @@ class Bio extends Component {
       <li><a href="https://www.linkedin.com/in/wes-coffay-4027b040">My LinkedIn</a></li><br/>
       <li><a href="https://github.com/justwes2">My Github</a></li><br/>
       <li>Or email me at wes [a] coffay.haus</li>
+      </ul>
+      <h4>My Certifications</h4>
+      <ul>
+      <li>AWS Associate- Devloper 2017</li><br/>
+      <li>AWS Associate- Solutions Architect 2017</li><br/>
+      <li>AWS Associate- SysOps Admin 2017</li><br/>
+      <li>Chef Badge- Basic Fluency 2018 </li><br/>
+      <li>Chef Badge- Local Cookbook Development 2018</li>
       </ul>
       </div>
       <div className="bio">
